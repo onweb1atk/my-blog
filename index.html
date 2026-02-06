@@ -1,0 +1,65 @@
+<style>
+    /* 1. 控制 Logo 的大小 */
+    img {
+        height: 100px; /* 将签名高度固定为 100 像素，宽度会自动按比例缩放 */
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    /* 2. 让页面居中，不要死贴着左边 */
+    body {
+        max-width: 800px; /* 限制网页最大宽度 */
+        margin: 0 auto;   /* 页面水平居中 */
+        padding: 40px;    /* 四周留出空白 */
+        font-family: "PingFang SC", "Microsoft YaHei", sans-serif; /* 设置中文字体 */
+        line-height: 1.6; /* 让行间距宽一点，方便阅读 */
+    }
+
+    /* 3. 给“板块”加点区分度 */
+    section {
+        margin-top: 40px;
+        padding: 20px;
+        border-bottom: 1px solid #eee; /* 在板块底部加一条浅色的分割线 */
+    }
+
+    h2 {
+        color: #333;
+        border-left: 4px solid #000; /* 给标题左侧加一个黑色小色块，模仿贴吧或专业网站的视觉 */
+        padding-left: 10px;
+    }
+    a {
+	text-decoration: none; 
+    	margin-right: 20px;
+}
+    a:hover { 
+	color: black; 
+}
+</style>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<header>
+    <img src="logo.png" alt="我的手写签名">
+    <p>个人签名：书写生活，记录思考。</p>
+    <a href="tech.html">技术探索</a>
+    <a href="life.html">随笔感悟</a>
+</header>
+
+<main>
+    <section>
+        <h2>系列一：技术探索</h2>
+        <ul>
+            <li>文章标题 1</li>
+            <li>文章标题 2</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>系列二：随笔感悟</h2>
+        <ul>
+            <li>文章标题 3</li>
+        </ul>
+    </section>
+</main>
